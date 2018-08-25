@@ -68,7 +68,7 @@ int main()
 	}
 	pid = getpid();
 
-	cout<<"Signal handled and waiting for the signal for child thread"<<endl;
+	cout<<"Signal handled and waiting for the signal from child thread"<<endl;
 
 	pthread_create(&thread_id, NULL, myFun, &pid);
 
